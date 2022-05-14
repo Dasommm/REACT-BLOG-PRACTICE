@@ -1,45 +1,54 @@
-.main-bg{
-  height: 300px;
-  background-image: url('./img/firstImg.jpg');
-  background-size: cover;
-  background-position: center;
+.start {
+	opacity: 0;
+}
+
+.end {
+	opacity: 1;
+	transition: opacity 0.5s;
+	/*애니메이션 주는 스타일. opacity 스타일이 변경될떄 0.5초에 걸쳐서 변경해주세요*/
+}
+.main-bg {
+	height: 300px;
+	background-image: url("./img/firstImg.jpg");
+	background-size: cover;
+	background-position: center;
 }
 
 .App {
-  text-align: center;
+	text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+	height: 40vmin;
+	pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
 }
 
 .App-link {
-  color: #61dafb;
+	color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
 }
