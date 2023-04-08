@@ -11,7 +11,7 @@ function App() {
 
   let [list,setList]= useState([
     {id: 1, title:'남자 코트 추천', like :0, color: 'red'},
-    {id: 2, title:'강남 우동맛집', like :0, color :'blue' },
+    {id: 2, title:'오징어초회!!', like :0, color :'blue' },
     {id: 3, title:'파이썬독학', like :0, color :'green'},
   ]);
 
